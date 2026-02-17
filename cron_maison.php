@@ -1,10 +1,10 @@
 <?php
 
-$apiUrl = "https://lefigaro.onrender.com/run";
+$apiUrl = "https://maisonetappartments.onrender.com/run";
 
 $data = [
     "source_url" => "https://manda.propertybase.com/api/v2/feed/00DWx000007hlhBMAQ/XML2U/a0hSb000005gQ02IAE/full",
-    "ftp_host" => "ftp://ftpsrv.maisonsetappartements.fr",
+    "ftp_host" => "ftpsrv.maisonsetappartements.fr",
     "ftp_username" => "pass_pbs",
     "ftp_password" => "pbs49637cms+",
     "ftp_target_path" => "11558.zip"
