@@ -1,7 +1,7 @@
 {
   "listing/id": "id",
-  "general_listing_information/listingtype": "general_listing_information/listingtype",
   "custom_fields/agency_id": "custom_fields/agency_id",
+  "general_listing_information/listingtype": "general_listing_information/listingtype",
   "custom_fields/con_PolirisPropertyType": "custom_fields/con_polirispropertytype",
   "address_information/postalcode": "address_information/postalcode",
   "address_information/city": "address_information/city",
