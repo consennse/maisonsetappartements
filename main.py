@@ -16,7 +16,7 @@ def run_pipeline():
   AGENCY_ID = "11558"
   SOURCE_URL = "https://manda.propertybase.com/api/v2/feed/00DWx000007hlhBMAQ/XML2U/a0hSb000005gQ02IAE/full"
 
-  RULE_FILE = "Poliris CSV Mapping.xlsx"
+  RULE_FILE = "Poliris CSV Mapping-3.xlsx"
   MAP_FILE = "xml_map.json"
 
   CSV_NAME = "scan.csv"
