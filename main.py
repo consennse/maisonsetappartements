@@ -68,7 +68,7 @@ def run_pipeline(portal):
 
     FIELDS = sorted(FIELDS, key=lambda x: x[0])
 
-    log.info("Columns from XLS:", len(FIELDS))
+    log.info(f"Columns from XLS:{len(FIELDS)}")
 
     # ---------------- LOAD JSON MAP ----------------
 
@@ -509,7 +509,7 @@ def run_pipeline(portal):
         log.error(f"PIPELINE FAILED: {str(e)}")
         raise
     log.info("=== PIPELINE COMPLETED SUCCESSFULLY ===")
-    
+
   except Exception as e:
     log.error(f"PIPELINE FAILED: {str(e)}")
     print("done")
