@@ -207,7 +207,7 @@ def run_pipeline(portal):
                 if chunk:
                     f.write(chunk)
                     total += len(chunk)
-                    log.info(f"Downloaded {total/1024/1024:.1f} MB", end="\r")
+                    log.info(f"Downloaded {total/1024/1024:.1f} MB")
 
     log.info("\nParsing XML...")
 
